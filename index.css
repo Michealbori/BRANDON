@@ -1,0 +1,734 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation style */
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e3edf8;
+}
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active{
+    color: #9b0d0d;
+}
+
+
+
+
+
+
+
+
+
+.heroSection h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heroSection span{
+    color: #9b0d0d;
+}
+
+
+.heroSection img{
+      display: block;
+      width: 50%;
+      margin: auto;
+}
+
+
+
+
+
+
+
+/* aboutme style */
+
+.wrapaboutMe h1{
+    text-align: center;
+    color: #9b0d0d;
+    font-family: "Audiowide", sans-serif;
+    margin: 25px 0 75px 0;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.aboutme h3{
+     text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.aboutme{
+      display: flex;
+      justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+.more{
+    display: flex;
+    justify-content: space-around;
+}
+
+.more h4{
+      text-align: center;
+      color: #9b0d0d;
+      font-family: "Audiowide", sans-serif;
+      margin: 25px 0 75px 0;
+      text-shadow: 3px 3px 3px #ababab;
+}
+
+.more .difftrent_style{
+    font-family: "Sofia", sans-serif;
+    font-size: 80px;
+}
+
+
+
+
+
+.wrapAboutsection{
+    display: flex;
+    justify-content: space-around;
+}
+.wrapAboutsection img{
+    margin-top: 30px;
+      border-radius: 8px;
+}
+
+
+.textSection{
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    margin: 25px 0 75px 0;
+}
+
+.skills{
+    color: #9b0d0d;
+    margin-top: 100%;
+}
+
+  
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0 0 0;
+}
+
+.hero h3{
+       text-align: center;
+       font-family: "Audiowide", sans-serif;
+}
+
+.aboutName span{
+            color: #9b0d0d;
+            font-size: 40px;
+}
+
+
+
+.Galery{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+}
+
+.Galery .first_img{
+        width: 20%;
+}
+
+.aboutBelow_Nav{
+    background-color: whitesmoke;
+    height: 2em;
+    margin: 2em 0 1em 0;
+    padding: 5px 0 0 0;
+}
+.aboutBelow_Nav a{
+    color: #9b0d0d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* store style */
+
+
+.produutNav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+.produutNav ul li {
+    margin: 15px;
+}
+
+.produutNav ul li a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produutNav .active{
+    color: #9b0d0d;
+}
+
+.productList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.productList img{
+    width: 400px;
+    height: 300px;
+    margin: 1em;
+    padding: 0 0 0 10px;
+}
+
+
+.products img{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.storeHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0 30px 0;
+}
+
+
+footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 7em;
+}
+footer a{
+    color: #9b0d0d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.storeName{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 250px;
+}
+
+
+
+/* CONTACT STORE */
+.contactName{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 250px;
+}
+
+
+
+.secondNav{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9b0d0d;
+    margin-bottom: 70px;
+}
+
+
+
+
+.contactUsSection{
+    display: block;
+}
+
+.contactUsSection img{
+     width: 500px;
+}
+
+.imageDetails{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.imageDetails span{
+         color: #9b0d0d;
+}
+
+.get_label{
+    color: #9b0d0d;
+}
+.copywrite{
+    display: flex;
+    justify-content: space-around;
+    color: #9b0d0d;
+    margin-bottom: 10px;
+}
+
+
+.f-different{
+    color: #e3edf8;
+    text-shadow: 3px 3px 3px #ababab;
+  }
+
+
+
+  .contactUs{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contactform label{
+    display: block;
+    justify-content: center;
+    font-weight: 700;
+    color: #9b0d0d;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contactform textarea{
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-weight: 900;
+}
+
+.contactform input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-weight: 900;
+}
+
+
+.contactform button{
+    background-color: #9b0d0d;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px){
+    .heroSection h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .heroSection img{
+        display: block;
+        width: 93%;
+        margin: auto;
+  }
+
+  .aboutme{
+    display: block;
+    justify-content: space-around;
+    font-size: 75%;
+}
+    
+.about_ma{
+    margin-top: 40px;
+    font-size: 75%;
+}
+
+
+.more{
+     text-align: center;
+}
+
+.more h4{
+    text-align: center;
+    color: #9b0d0d;
+    font-family: "Audiowide", sans-serif;
+    margin: 25px 0 75px 0;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+.more .difftrent_style{
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+
+
+                /* About Style */
+
+                .wrapAboutsection{
+                    display: block;
+                    margin: 0 0 0 4em;
+                }
+                .wrapAboutsection img{
+                    margin-top: 0;
+                      border-radius: 8px;
+                      width: 70%;
+                      margin: 2em 0 0 0;
+                }
+                
+                
+                .textSection{
+                    color: black;
+                    font-family: "Audiowide", sans-serif;
+                    margin: 25px 0 75px 0;
+                    font-size: 75%;
+                }
+                
+                .skills{
+                    color: #9b0d0d;
+                    margin-top: 10%;
+                    font-size: 70%;
+                }
+                
+                  
+                
+                .hero{
+                    display: block;
+                    margin: 90px 0 0 0;
+                }
+                
+                .hero h3{
+                       text-align: center;
+                       font-family: "Audiowide", sans-serif;
+                       margin: 1em 0 0 0;
+                       font-size: 75%;
+                }
+                
+                .aboutName span{
+                            color: #9b0d0d;
+                            font-size: 40px;
+                }
+                
+                
+                
+                .Galery{
+                    display: block;
+                    margin: 2em 0 0 4em;
+                }
+                
+                .Galery .first_img{
+                        width: 70%;
+                        border-radius: 1em;
+                }
+                
+                .Galery .second_img{
+                        width: 70%;
+                        border-radius: 1em;
+                }
+                
+                .aboutBelow_Nav{
+                    background-color: whitesmoke;
+                    height: 2em;
+                    margin: 2em 0 1em 0;
+                }
+                .aboutBelow_Nav a{
+                    color: #9b0d0d;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                }
+
+
+                .storeHero img{
+                    width: 60%;
+                    margin: 0;
+                }
+
+
+
+                .productList{
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                
+
+                .productList img{
+                    width: 70%;
+                    margin: 1em;
+                    padding: 0 0 0 10px;
+                }
+
+
+
+                footer{
+                    display: block;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-top: 7em;
+                    margin-left: 1em;
+              }
+              footer a{
+                  color: #9b0d0d;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              
+              }
+
+              .secondRow{
+                padding-top: 2em;
+                padding-bottom: 2em;
+              }
+              
+              
+              .storeName{
+                  text-align: center;
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: 60px;
+                  margin-top: 1em;
+                  margin-bottom: 1em;
+              }
+
+              .don-different{
+                color: #e3edf8;
+                text-shadow: 3px 3px 3px #ababab;
+              }
+
+              .f-different{
+                color: black;
+                text-shadow: none;
+              }
+
+
+
+
+/* CONTACT STORE */
+.contactName{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+
+
+.secondNav{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #9b0d0d;
+    margin-bottom: 70px;
+    font-size: 7px;
+    padding: 10px;
+}
+
+
+
+
+.contactUsSection{
+    display: block;
+}
+
+.contactUsSection img{
+     width: 500px;
+}
+
+.imageDetails{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.imageDetails span{
+         color: #9b0d0d;
+}
+
+.get_label{
+    color: #9b0d0d;
+}
+.copywrite{
+    display: flex;
+    justify-content: space-around;
+    color: #9b0d0d;
+}
+
+
+
+  .contactUs{
+    display: block;
+    /* justify-content: space-around; */
+}
+ 
+
+.contactform textarea{
+    width: 90%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+}
+
+.contactform input{
+    width: 90%;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+}
+
+
+.contactform label{
+    display: block;
+    justify-content: center;
+    font-weight: 700;
+    color: #9b0d0d;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.contactform button{
+  margin-bottom: 10px;
+}
+
+
+.contactUsSection img{
+    width: 90%;
+    margin-left: 20px;
+}
+
+
+
+.contactform button{
+    background-color: #9b0d0d;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+
+  .copywrite{
+    display: flex;
+    justify-content: space-around;
+    color: #9b0d0d;
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+ 
